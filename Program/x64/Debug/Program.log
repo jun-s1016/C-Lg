@@ -1,4 +1,2 @@
 ﻿  Solution.c
-C:\Users\lg\Desktop\C-Lg\Program\Solution.c(207,13): error C2050: switch 식이 정수 계열이 아닙니다.
-C:\Users\lg\Desktop\C-Lg\Program\Solution.c(209,19): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
-C:\Users\lg\Desktop\C-Lg\Program\Solution.c(209,1): error C2052: 'double': case 식의 형식이 잘못되었습니다.
+  Program.vcxproj -> C:\Users\lg\Desktop\C-Lg\Program\x64\Debug\Program.exe
