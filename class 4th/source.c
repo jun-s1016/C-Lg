@@ -2,7 +2,7 @@
 
 void main()
 {
-#pragma region 반복문
+	#pragma region 반복문
 
 	// 프로그램 내에서 특정한 작업을 반복적으로 수행하는 명령문.
 
