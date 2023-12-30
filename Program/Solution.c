@@ -62,23 +62,28 @@ int main()
 	//printf("pow 2의 3승 : %lf\n", pow(2, 3));
 
 
-	struct Player player;
-	printf("player의 좌표를 입력하세요");
-	scanf_s("%d %d", &player.x & player.y);
-
+	struct Character character;
 	struct Monster monster;
 
-	printf("monster의 좌표를 입력하세요");
-	scanf_s("%d %d", &monster.x &monster.y);
+	printf("character의 좌표를 입력하세요\n");
+	scanf_s("%d %d", &character.x , &character.y);
 
-	int a = (&player.x - &monster.x);
+	printf("monster의 좌표를 입력하세요\n");
+	scanf_s("%d %d", &monster.x, &monster.y);
 
-	distance = sqrt(pow(monster.x, 2) + pow(monster.y, 2));
+	int distance;
+
+	distance = sqrt(pow((monster.x - character.x), 2) + pow((monster.y - character.y), 2));
 	
-	if (distance<  5.0)
+	if (distance <=  5.0)
 		printf("공격범위 입니다");
 	else
 		printf("공격범위가 아닙니다");
+
+	struct Character character = { 0,0 };
+	struct Monster monster = { 6,4 };
+
+
 
 
 
